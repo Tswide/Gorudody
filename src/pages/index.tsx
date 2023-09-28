@@ -10,10 +10,10 @@ export default function Home() {
       <Typography variant='display' component='h1' theme='primary'>
         The best app web
       </Typography>
-      <Button size='small'>Ajouter</Button>
-      <Button variant='secondary'>Ajouter</Button>
-      <Button variant='outline'>Ajouter</Button>
-      <Button variant='disabled'>Ajouter</Button>
+      <Button size='small' isLoading>Ajouter</Button>
+      <Button variant='secondary' isLoading>Ajouter</Button>
+      <Button variant='outline' isLoading>Ajouter</Button>
+      <Button variant='disabled' isLoading>Ajouter</Button>
       <Spinner />
     </>
   )
